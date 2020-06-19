@@ -15,3 +15,9 @@ cutting off unrealistically quickly when a note ends (unless the instrument uses
 [loop_mode](loop_mode) set to one_shot, in which case the entire sample will
 always play) even if amplifier envelopes are not used otherwise to shape the
 sound. Also, `ampeg_release` is used when [off_mode](off_mode) is set to normal.
+
+The value is the time in seconds for the volume to decrease by a fixed amount.
+For Aria, this is 45 dB; for sfz.dll, this is 40 dB.  So, if the value is 2,
+in one second the volume will be reduced by 22.5 dB (Aria) or 20 dB (sfz.dll),
+in two seconds it will be reduced by 45 or 40 dB (respectively), and
+in three seconds it will be reduced by 67.5 or 60 dB (respectively), etc.
