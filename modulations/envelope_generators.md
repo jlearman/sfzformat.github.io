@@ -2,6 +2,8 @@
 title: Envelope Generators
 lang: en
 ---
+To get an understanding of what envelope generators are, see the [Envelope Generators Tutorial](/tutorials/envelope_generators)
+
 Envelope Generator opcodes are part of the [Modulation](/misc/categories#modulation)
 category of opcodes:
 
